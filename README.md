@@ -141,7 +141,7 @@ loginData = {'school':school, 'sid':sid, 'number':number, 'password':password, '
 
 接下来是模仿JS发送投票请求（PU要求没人投满六个才算数）
 	
-	# pachong.py
+	# pachongfuben.py
 	
 	import requests
 	import urllib.request
@@ -221,8 +221,8 @@ loginData = {'school':school, 'sid':sid, 'number':number, 'password':password, '
 
 重要的三个py文件已经贴出，使用顺序：
 
-	huoqunumber.py --> numbersaved.py --> pachong.py
-huoqunumber.py得到的初始化学号，numbersaved.py利用其得到可以登录的学号（即初始化密码没有修改的同学），pachong.py利用numbersaved.py拿到的可登录账号登陆并进行投票。
+	huoqunumber.py --> numbersaved.py --> pachongfuben.py
+huoqunumber.py得到的初始化学号，numbersaved.py利用其得到可以登录的学号（即初始化密码没有修改的同学），pachongfuben.py利用numbersaved.py拿到的可登录账号登陆并进行投票。
 
 
 ----------
